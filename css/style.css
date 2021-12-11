@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0;
+    background-image: url('../images/Tehran.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+.focus-in-contract-bck{
+    -webkit-animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) both;
+    animation:focus-in-contract-bck 1s cubic-bezier(.25,.46,.45,.94) both
+}
+
+@-webkit-keyframes focus-in-contract-bck{
+    0%{letter-spacing:1em;-webkit-transform:translateZ(300px);
+        transform:translateZ(300px);
+        -webkit-filter:blur(12px);
+        filter:blur(12px);opacity:0}100%{-webkit-transform:translateZ(12px);
+            transform:translateZ(12px);
+            -webkit-filter:blur(0);
+            filter:blur(0);opacity:1}
+        }
+@keyframes focus-in-contract-bck{
+    0%{letter-spacing:1em;
+        -webkit-transform:translateZ(300px);
+        transform:translateZ(300px);
+        -webkit-filter:blur(12px);
+        filter:blur(12px);
+        opacity:0
+    }
+    100%{-webkit-transform:translateZ(12px);
+        transform:translateZ(12px);
+        -webkit-filter:blur(0);
+        filter:blur(0);
+        opacity:1
+    }
+    }
+    h1{
+        font-size:xx-large;
+        position: absolute;
+        text-align: center;
+        margin-left: 20%;
+        margin-top: 10%;
+        z-index :1;
+        color: rgb(189, 184, 184);
+    }
+
+  
+   
